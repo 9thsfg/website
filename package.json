@@ -1,7 +1,7 @@
 {
   "name": "9th-sfg--website",
-  "version": "0.0.1",
-  "description": "9th Special Forces Group Arma community website. Follow this link to learn more: http://www.9thsfg.com. PHP version: 5.6.0",
+  "version": "1.0",
+  "description": "9th Special Forces Group Arma community website. Follow this link to see more: http://www.9thsfg.com. PHP version: 5.6.0",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
