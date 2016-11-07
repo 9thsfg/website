@@ -1,0 +1,49 @@
+/********************************************************************************************************************
+ Theme Name:   9th SFG
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  9th Special Forces Group (Note: due to limitations with numbers in functional programming, 9th-sfg is referred to as simply sfg in the code)
+ Author:       Saborknight
+ Author URI:   http://saborknight.com
+ Template:     organic_bold_4
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         art, artwork, blog, design, photoblogging, photography, portfolio, clean, contemporary, elegant, light, minimal, modern, professional, simple, gray, white, one-column, two-columns, three-columns, right-sidebar, flexible-width, responsive-width, custom-background, custom-header, custom-menu, featured-images, featured-image-header, flexible-header, full-width-template, theme-options, translation-ready, infinite-scroll, post-slider, sticky-post
+ Text Domain:  sfg
+
+*********************************************************************************************************************
+
+	Table of Contents:
+
+	 0.	Page Specific Mods
+
+********************************************************************************************************************/
+
+/************************************************
+*	0.	Page Specific Mods						*
+************************************************/
+
+/* Members Page */
+.post-7 .feature-img {
+	/* background-color: #272727; */
+	padding-bottom: 2em;
+}
+
+.sfg-members {
+	width: 100%;
+	height: 170em;
+	border: none;
+}
+
+/** Thumbnail **/
+.feature-img[style*="/wp-content/uploads/2016/10/home.png"] {
+	background-color: #272727;
+}
+.feature-img[href*="9thsfg.com/welcome/"] {
+	background-color: #272727;
+}
+
+/* Homepage Slider */
+.flexslider {
+	background-color: #272727;
+}
