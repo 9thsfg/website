@@ -82,8 +82,8 @@
 			</div>
 			
 			<!-- BEGIN .row -->
-			<div class="row">
-			
+			<div class="row nav-row">
+
 				<!-- BEGIN #navigation -->
 				<nav id="navigation" class="navigation-main radius-full" role="navigation">
 				
@@ -101,9 +101,16 @@
 					} else { ?>
 						<div class="menu-container"><ul class="menu"><?php wp_list_pages('title_li=&depth=4'); ?></ul></div>
 					<?php } ?>
-		
+
 				</nav><!-- END #navigation -->
-				
+			
+				<div class="armaclans">
+					<a href="http://armaclans.com/">
+						<img src="http://armaclans.com/images/extra/button_200x46_short_trans.png" alt="Your Name" />
+					</a>
+					<img src="http://armaclans.com/button.php?u=9thSFG&buttontype=text" alt="Your Name" border="0" style="display: none;" width="1px" height="1px"/>
+				</div>
+	
 			<!-- END .row -->
 			</div>
 		

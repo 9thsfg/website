@@ -25,7 +25,6 @@
 
 /* Members Page */
 .post-7 .feature-img {
-	/* background-color: #272727; */
 	padding-bottom: 2em;
 }
 
@@ -36,14 +35,35 @@
 }
 
 /** Thumbnail **/
-.feature-img[style*="/wp-content/uploads/2016/10/home.png"] {
-	background-color: #272727;
-}
-.feature-img[href*="9thsfg.com/welcome/"] {
+.feature-img[style*="/wp-content/uploads/2016/10/home.png"], .feature-img[href*="9thsfg.com/welcome/"], .flexslider {
 	background-color: #272727;
 }
 
-/* Homepage Slider */
-.flexslider {
-	background-color: #272727;
+/* Arma Clans */
+.armaclans{
+	display: inline;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 12em;
+	z-index: 9999;
+}
+
+/** Responsivity Breakpoints **/
+@media (max-width: 768px) {
+	.armaclans {
+		position: relative;
+		width: 100%;
+	}
+}
+
+/** Navigation Mod to suit Arma Clans Link **/
+.nav-row {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#navigation {
+	z-index: 9990
 }
