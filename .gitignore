@@ -1,1 +1,42 @@
+# Globals
+## General
+.gitignore
+.DS_Store
 node_modules
+build/*
+*.sublime-*
+## Windows
+### Thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+### Folder config file
+Desktop.ini
+### Recycle Bin used on file shares
+$RECYCLE.BIN/
+### Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+### Windows shortcuts
+*.lnk
+
+# Repo
+## Wordpress
+*.log
+dev/wp-config.php
+dev/wp-content/advanced-cache.php
+dev/wp-content/backup-db/
+dev/wp-content/backups/
+dev/wp-content/blogs.dir/
+dev/wp-content/cache/
+dev/wp-content/upgrade/
+dev/wp-content/uploads/
+dev/wp-content/wp-cache-config.php
+dev/wp-content/plugins/hello.php
+dev/.htaccess
+dev/license.txt
+dev/readme.html
+dev/sitemap.xml
+dev/sitemap.xml.gz
